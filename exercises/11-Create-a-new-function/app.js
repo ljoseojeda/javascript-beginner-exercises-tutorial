@@ -5,3 +5,5 @@ function generateRandom(num1, num2)
 {
     return Math.floor((Math.random() * 9) + 0);
 }
+
+console.log(generateRandom(0, 9));
